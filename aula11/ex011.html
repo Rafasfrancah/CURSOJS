@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Sistema de Consulta</h1>
-    País: <input type="text" name="Brasil" id="Brasil">
+    País: <input type="number" name="Brasil" id="Brasil">
     <input type="button" value="Verificar" onclick="calcular()">
     <div id= "res">
 
@@ -17,8 +17,8 @@
         function calcular(){
             var pais = window.document.getElementById('Brasil')
             var res = window.document.querySelector('div#res')
-            var pais = name(pais.value)
-            res.innerHTML = `<p> Você mora no(a) <strong>${pais}</strong></p>`
+            var pais = Number(pais.value)
+            res.innerHTML = `<p> Você mora no(a) <strong>${pais}.</strong></p>`
             if (pais == Brasil){
                 console.log('Brasileiro')
 
