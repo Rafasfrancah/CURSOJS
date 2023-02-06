@@ -1,4 +1,4 @@
-var contador = 1
+var contador = 5
 do {
     console.log(`passo ${contador}`)
     contador++
