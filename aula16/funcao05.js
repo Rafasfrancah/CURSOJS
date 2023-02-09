@@ -6,7 +6,6 @@ function fatorial(n){
     } else {
         return n * fatorial(n-1)
     }
-
 }
 
 
