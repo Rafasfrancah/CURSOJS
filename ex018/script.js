@@ -1,7 +1,7 @@
-var num = document.querySelector('input#fnum')
-var lista = document.querySelector('select#flista')
-var resultado = document.querySelector('div#resultado')
-var valores = []
+let num = document.querySelector('input#fnum')
+let lista = document.querySelector('select#flista')
+let resultado = document.querySelector('div#resultado')
+let valores = []
 
 function isnumero(n){
     if(Number(n) >= 1 && Number(n) <=  100) {
@@ -38,11 +38,26 @@ num.focus()
 
 function finalizar(){
     if (valores.length == 0){
-        var tot = valores.length
+        window.alert('Adicione valores antes de finalizar!')      
 
-        resultado.innerHtml = ""
-        resultado.innerHtml += `<p>Ao todo, temos ${tot} números cadastrados!</p>`
-
+    } else{
+        let tot = valores.length
+        let maior = valores[0]
+        let menor = valores[0]
+        let soma = 0
+        let media = 0
+        for( let pos in valores){
+            soma += valores[pos]
+            if(valores[pos] > maior)
+            maior = valores[pos]
+            if(valores[pos] < menor)
+            menor = valores[pos]
+        }
+        media = soma / tot
+        resultado.innerHTML = ''
+        resultado.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
+        resultado.innerHTML += `<p>O maior valor informado foi ${maior}.</p>`
+        resultado.innerHTML += `<p>O menor valor informado foi ${menor}.</p>`
     }
 
 }
