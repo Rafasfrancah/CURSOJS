@@ -1,6 +1,6 @@
-var num = window.document.querySelector('input#fnum')
-var lista = window.document.querySelector('input#flista')
-var resultado = window.document.querySelector('div#resultado')
+var num = document.querySelector('input#fnum')
+var lista = document.querySelector('select#flista')
+var resultado = document.querySelector('div#resultado')
 var valores = []
 
 function isnumero(n){
@@ -21,14 +21,12 @@ function inlista(n, l){
     }
 
 }
-function adicionar(){
-    if(isnumero(num.value) && !inlista(num.value, valores)){
+function adicionar() {
+    if(isnumero(num.value) && !inlista(num.value, valores)) {
         valores.push(Number(num.value))
-        var item = document.createElement('option')
-        item.text = `Valor ${num.value} adicionado`
-        lista.appendChild(item)
-        
-
+        let item = document.createElement('option')
+        item.text = `Valor ${num.value} adicionado.`
+        lista.appendChild(item)      
     } else {
         window.alert('Valor inválido ou já encontrado na lista')
 
