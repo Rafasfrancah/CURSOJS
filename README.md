@@ -1,2 +1,2 @@
 # Exercicios-JavaScript
-Espaço desdinado aos exercícios do curso básico de JavaScript.
+Espaço destinado aos exercícios do curso básico de JavaScript.
