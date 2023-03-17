@@ -6,7 +6,7 @@
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula06/ex003.html" target="_blank">Somando números.</a> 
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula06/ex004.html" target="_blank">Quantidade de letras no nome/Nome maiúsculo/Nome minúsculo.</a> 
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula06/ex005.html" target="_blank">Primeiros passos com DOM.</a>
-* <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula10ex/ex006/modelo.html" target="_blank">Eventos DOM.</a>
+* <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula10/ex.006.html" target="_blank">Eventos DOM.</a>
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula10/ex007.html" target="_blank">Somando valores.</a>
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula11/ex010.html" target="_blank">Sistema de multas.</a>
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula11/ex011.html" target="_blank">Consulta de nacionalidade.</a>
