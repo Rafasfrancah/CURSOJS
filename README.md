@@ -14,7 +14,7 @@
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula12/ex015.html" target="_blank">Verificador de idade.</a>
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula14/ex016.html" target="_blank">Super contador.</a>
 * <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula14/ex017.html" target="_blank">Tabuada.</a>
-* <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula16ex/ex018.html" target="_blank">Analisador de números.</a>
+* <a href="https://rafasfrancah.github.io/Exercicios-JavaScript/aula16ex/ex018modelo.html" target="_blank">Analisador de números.</a>
 
 
 
